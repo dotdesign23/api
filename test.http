@@ -1,0 +1,39 @@
+###
+POST http://localhost:8080/api/users
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "email": "john.doe@example.com"
+}
+
+###
+POST http://localhost:8080/api/users
+Content-Type: application/json
+
+{
+  "name": "Alice Smith",
+  "email": "alice.smith@example.com"
+}
+
+###
+GET http://localhost:8080/api/users
+
+###
+PUT http://localhost:8080/api/users/1
+Content-Type: application/json
+
+{
+  "name": "John Mayer",
+  "email": "john.doe@example.com"
+}
+
+###
+GET http://localhost:8080/api/users/1
+
+###
+DELETE http://localhost:8080/api/users/1
+
+###
+GET http://localhost:8080/api/users
+
