@@ -1,6 +1,5 @@
 package com.learn.api.controller;
 
-
 import com.learn.api.model.User;
 import com.learn.api.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
